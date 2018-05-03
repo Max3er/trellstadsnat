@@ -3,6 +3,42 @@
   padding: 0; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #007dc3;
+  color: #007dc3; }
+
+a {
+  color: #ec6607;
+  word-break: break-all; }
+
+h1 {
+  color: white; }
+
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center; }
+
+.main-content {
+  margin: 10%; }
+  .main-content > .hello-block {
+    text-align: center; }
+    .main-content > .hello-block h1 {
+      font-size: 6rem;
+      margin-bottom: 3rem; }
+  .main-content > .information-block {
+    background-color: white;
+    padding: 30px; }
+    .main-content > .information-block h2 {
+      padding-bottom: 0.5rem; }
+    .main-content > .information-block p {
+      padding-bottom: 1rem;
+      line-height: 22px; }
+      .main-content > .information-block p:last-child {
+        padding-bottom: 0px; }
+  .main-content > .company-logo img {
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
